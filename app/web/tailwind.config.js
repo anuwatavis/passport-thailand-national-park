@@ -8,7 +8,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        "nature-green": "#2F4922",
+        "nature-green": "#5D6B5C",
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
