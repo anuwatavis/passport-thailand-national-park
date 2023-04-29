@@ -3,7 +3,7 @@
 <!-- PROJECT LOGO -->
 <p align="center">
   <a href="https://github.com/anuwatavis/thailand-national-park-passport">
-   <img src="readme/passport.png" alt="Alt text" width="250" height="350" alt="Logo">
+   <img src="readme/passport.png" alt="Alt text" width="800" height="500" alt="Logo">
   </a>
 </p>
 
