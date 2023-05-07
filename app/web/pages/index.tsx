@@ -1,35 +1,17 @@
 import Image from "next/image";
 import { Inter } from "next/font/google";
+import PassportCover from "./components/PassportCover";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
   return (
     <main className="h-screen w-screen flex items-center">
-      <div className="relative mx-auto my-auto h-[75%] max-h-[600px] p-4 bg-nature-green rounded-tr-3xl rounded-br-3xl">
-        <div className="flex justify-center items-center m-4">
-          <img
-            src="/images/dnp_logo.png"
-            alt="image"
-            width={150}
-            height={150}
-          />
-        </div>
-
-        <div className="border border-white rounded-[17px] p-[3px]">
-          <div className="border border-white rounded-[13px] p-4">
-            <div className="text-center text-gray-50">
-              <div className="text-md">หนังสือเดินทางท่องเที่ยว</div>
-              <div className="text-5xl my-2">อุทยานแห่งชาติ</div>
-              <div className="text-md">Passport to Thailand National Parks</div>
-            </div>
-          </div>
-        </div>
-        <div
-          className="bg-center bg-cover h-[40%]"
-          style={{ backgroundImage: "url('images/leaf.svg')" }}
-        ></div>
-      </div>
+      <PassportCover
+        heightOfPassport={"75%"}
+        logoHeight={150}
+        logoWidth={150}
+      />
     </main>
   );
 }
